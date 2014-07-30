@@ -1,6 +1,39 @@
-#include <tree_utils.h>
+#include <tree_util.h>
 #include <stdio.h>
 #include <malloc.h>
+
+
+void stack_init(struct stack *S) {
+    S->top = -1;
+}
+
+void push(struct stack *S, struct tree_node *new_node) {
+    if(S->top == STACK_MAX_SIZE-1) {
+        printf("Stack is full\n");
+    }
+    S->top++;
+    S->a[S->top] = new_node;
+}
+
+struct tree_node * pop(struct stack *S) {
+    if(S->top == -1)
+    {
+        printf("Stack empty\n");
+        return NULL;
+    }
+    return S->a[S->top--];
+}
+
+int isEmpty(struct stack *S){
+    if(S->top==-1)
+        return 1;
+    return 0;
+}
+
+struct tree_node *top(struct stack *S) {
+    return S->a[S->top];
+}
+
 
 struct tree_node *tree_add_node(int num)
 {
