@@ -1,0 +1,20 @@
+Give ratings to these questions on the basis of difficulty. (Scale it on 1 to 10)
+
+Geeks for geeks 1st page of tree excercise.
+Easy to do ones.
+1. Traversal in recursive manner. - done. (2)
+2. Traversal in iterative manner. (preorder, postorder(8), inorder)
+3. size of a tree (node count). (4)
+4. Maximum depth or height of a tree. (Number of edges) (6)
+5. Check if both trees are identical.
+6. Delete a tree. (4)
+7. Mirror a binary tree.
+8. Print out all root to leaf paths. (6)
+9. Find lowest common ansector of a node.
+10.Level order traversal.
+11.Count leaf nodes in a binary tree.
+12.Check if given tree is a bst.
+
+Difficult ones.
+1. Tree list recursion problem.
+2. Construct a tree with given two traversals.
