@@ -1,4 +1,4 @@
-Give ratings to these questions on the basis of difficulty. (Scale it on 1 to 10)
+Give ratings to these questions on the basis of difficulty. (Rate it on a scale of 1 to 10)
 
 Geeks for geeks 1st page of tree excercise.
 Easy ones.
@@ -8,8 +8,8 @@ Easy ones.
                                                         postorder- times(1) rank(8)
 3. size of a tree (node count).                         times(1) rank(4)
 4. Maximum depth or height of a tree. (Number of edges) times(1) rank(6)
-5. Check if both trees are identical.                   times(0) rank(unknown)
-6. Delete a tree.                                       times(0) rank(unknown)
+5. Check if both trees are identical.                   times(1) rank(5)
+6. Delete a tree.                                       times(1) rank(3)
 7. Mirror a binary tree.                                times(0) rank(unknown)
 8. Print out all root to leaf paths.                    times(0) rank(unknown)
 9. Find lowest common ansector of a node.               times(0) rank(unknown)

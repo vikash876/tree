@@ -5,6 +5,7 @@ SRC = test.c \
       util/tree_util.c \
       excercise/size.c \
       excercise/height.c 
+      excercise/identical.c
 
 default:
 	$(CC) $(INC) $(SRC)
