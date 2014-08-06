@@ -4,6 +4,8 @@
 
 void main()
 {
+    int a[30];
+    int count = 0;
     struct tree_node *root = NULL;
     root = tree_add_node(1);
     root->left = tree_add_node(2);
@@ -29,4 +31,7 @@ void main()
     printf("Tree size(9) = %d\n", tree_size(root));
     printf("Height is %d\n", tree_height(root));
     printf("Check identical for same tree = %d\n", tree_check_identical(root, root2));
+    tree_mirror(root);
+    tree_postorder_iterative_print(root);
+    tree_r2l_path(root, a, count);
 }
