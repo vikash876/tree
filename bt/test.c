@@ -18,4 +18,6 @@ void main()
     #endif
     //tree_preorder_print(root);
     tree_postorder_iterative_print(root);
+    printf("Tree size(9) = %d\n", tree_size(root));
+    printf("Height is %d\n", tree_height(root));
 }

@@ -6,8 +6,8 @@ Easy ones.
 2. Traversal in iterative manner.                       preorder - times(0) rank(unknown),
                                                         inorder  - times(0) rank(unknown),
                                                         postorder- times(1) rank(8)
-3. size of a tree (node count).                         times(0) rank(4)
-4. Maximum depth or height of a tree. (Number of edges) times(0) rank(6)
+3. size of a tree (node count).                         times(1) rank(4)
+4. Maximum depth or height of a tree. (Number of edges) times(1) rank(6)
 5. Check if both trees are identical.                   times(0) rank(unknown)
 6. Delete a tree.                                       times(0) rank(unknown)
 7. Mirror a binary tree.                                times(0) rank(unknown)
